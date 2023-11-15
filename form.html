@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container" >
+            <img src="image/real now last.png" alt="image">
+            <form action >
+                <div class="text-form">
+                    <h1 >Log in</h1>
+                    <p >You don't have an account:<a href="#" class="link">create account</a></p>
+                </div>
+
+                <div class="input-form">
+                    <label for="nama" >Username:</label><br>
+
+                    <input type="text" placeholder="Your Username" maxlength="15" class="input" id="input" ><br>
+
+                    <label for="count" class="count" id="label" >
+                        You have letters remaining:<span id="count" ></span> 
+                    </label>
+                </div>
+
+                <div class="input-form">
+                    <label for="nama" >password:</label><br>
+
+                    <input type="password" placeholder="Your Password" maxlength="15" class="input"><br>
+                </div>
+
+                <input type="submit" class="btn" >
+            </form>
+        </div>
+    </div>
+
+    <!-- java script -->
+    <script src="form.js"></script>
+</body>
+</html>
